@@ -4,7 +4,7 @@ puppet-snmp
 Description
 -----------
 
-A Puppet report processor for sending metrics to SNMP.
+A Puppet report processor for traps for failed notifications to SNMP.
 
 Requirements
 ------------
@@ -26,8 +26,8 @@ Installation & Usage
 2.  Install puppet-snmp as a module in your Puppet master's module
     path.
 
-3.  Update the `snmp_server` and `snmp_port` variables in the `snmp.yaml` file with 
-    your snmp server IP and port and copy the file to `/etc/puppet/`. An example file is included.
+3.  Update the `snmp_server` variable in the `snmp.yaml` file with 
+    your SNMP server IP and port and copy the file to `/etc/puppet/`. An example file is included.
 
 4.  Enable pluginsync and reports on your master and clients in `puppet.conf`
 
