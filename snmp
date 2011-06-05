@@ -1,0 +1,1 @@
+snmptrap  -v  1  -c  public localhost enterprises.spider test-hub 3 0 '' interfaces.iftable.ifentry.ifindex.1 i 1
